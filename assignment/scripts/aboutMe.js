@@ -30,23 +30,23 @@ console.log(adventurous);
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = 'noodles, curry, sandwhiches, cucumber kimchi';
-console.log(food);
+console.log( food );
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-let pets = 0
-console.log(pets);
+let pets = 0;
+console.log( pets );
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 1;
-console.log(friendsPets);
+console.log( friendsPets );
 
 // 11 - Add two pets to your `pets` variable
 pets +=2;
-console.log(pets);
+console.log( 'I now have this many pets', pets );
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 2;
-console.log(allowedPets);
+console.log( allowedPets );
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
@@ -62,21 +62,23 @@ if( adventurous = true ){
 if( luckyNumber == 2 && adventurous == true ){
   console.log('Roll the dice!');
 }
+else{console.log("No dice");}
 
 // 15 - Write a conditional that console logs "I can have more pets!"
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
+
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 if( pets < allowedPets ){
-  console.log("I have enough pets");
+  console.log( "I can have more pets!" );
 }
-if( pets = allowedPets ){
-  console.log("I have enough pets");
+else if ( pets == allowedPets ){
+  console.log("I have enough pets.");
 }
-if( pets > allowedPets); {
-console.log("Oh no, I have too many pets!");
+else{ console.log("Oh no, I have too many pets");
 }
+
 
 
 // STRETCH GOALS:
